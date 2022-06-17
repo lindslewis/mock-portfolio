@@ -1,0 +1,61 @@
+
+/*general background stuff, like color and font for entire page*/
+body {
+    background-color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*this is what is at the top! and says, "Welcome to my..." constains h1*/
+/*fixed position so the bar scrolls with you as you scroll the page, 100% width so that it fits the size of whatever device is used*/
+header {
+    background-color: lavenderblush;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0; 
+    border: 5px solid lightblue;
+    border-radius: 30px;
+}
+
+section {
+    text-align: center;
+    margin-top: 200px;
+    length: 500px;
+    width: 500px;
+    line-height: 100px;
+    position: static;
+   
+}
+
+
+h2 {
+    text-align: center;
+}
+
+
+figure {
+    text-align: center;
+    border: 5px solid lightblue;
+    border-radius: 10%;
+}
+
+#title {
+    text-align: left;
+    position: relative;
+    left: 50px;
+    line-height: normal;
+}
+
+.image-box {
+    margin: auto;
+    padding: 10px;
+    position: static;
+    text-align: center;
+
+}
+
+footer {
+    text-align: center;
+    border: 5px solid lightblue;
+    background-color: lavenderblush;
+}
